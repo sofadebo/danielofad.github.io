@@ -1,0 +1,25 @@
+@use'../custom'as *;
+@use'../components/mixins'as *;
+
+.menu{
+    background: $secondary;
+
+    li{
+        padding: 2.5rem 0.75rem;
+
+        a:link{
+            color: $gray-700;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 100%;
+        }
+
+        a:hover{
+            color: $orange!important;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 100%;
+        }
+
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "daniel",
+  "version": "1.0.0",
+  "description": "Portfolio website for Daniel - Marketing Data Analyst",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "Daniel Ogunfadebo",
+  "license": "ISC",
+  "keywords": [
+    "Daniel",
+    "marketing-analyst",
+    "daniel-marketing-analyst",
+    "analyis",
+    "data-analysis",
+    "data-analyst"
+  ],
+  "devDependencies": {
+    "sass": "^1.36.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
